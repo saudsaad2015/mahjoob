@@ -43,7 +43,7 @@ if (isset($_POST['field'])
 if (!array_key_exists($webtheme, $available_themes)) {
     // Fallback to default (light) theme is property is not set
     // or requested theme is not among the available
-    $webtheme = 'default-auto';
+    $webtheme = 'light-theme';
 }
 
 $darkmode = $available_themes[$webtheme][1];
