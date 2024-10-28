@@ -1,0 +1,469 @@
+/* تصميم مخصص لواجهة Pi-hole بالثيم الفاتح */
+
+/* الهيدر */
+.main-header .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.main-header .navbar .nav>li>a,
+.main-header .navbar .nav>li>.navbar-text {
+    color: #343a40;
+    transition: color 0.3s;
+}
+
+.main-header .navbar .nav>li>a:hover,
+.main-header .navbar .nav>li>a:active,
+.main-header .navbar .nav>li>a:focus,
+.main-header .navbar .nav .open>a,
+.main-header .navbar .nav .open>a:hover,
+.main-header .navbar .nav .open>a:focus {
+    background-color: #e2e6ea;
+    color: #343a40;
+}
+
+.main-header .navbar .sidebar-toggle {
+    color: #343a40;
+}
+
+.main-header .navbar .sidebar-toggle:hover {
+    color: #495057;
+    background-color: #e2e6ea;
+}
+
+.main-header .logo {
+    background-color: #ffffff;
+    color: #343a40;
+    transition: background-color 0.3s;
+    border-right: 1px solid #dee2e6;
+}
+
+.main-header .logo:hover {
+    background-color: #f1f3f5;
+}
+
+.main-header li.user-header {
+    background-color: #f8f9fa;
+}
+
+/* الشريط الجانبي */
+.wrapper,
+.main-sidebar,
+.left-side {
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+}
+
+.user-panel>.info,
+.user-panel>.info>a {
+    color: #343a40;
+}
+
+.sidebar-menu>li.header {
+    color: #6c757d;
+    background-color: #f8f9fa;
+}
+
+.sidebar-menu>li>a {
+    color: #495057;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-menu>li:hover>a,
+.sidebar-menu>li.active>a {
+    color: #ffffff;
+    background-color: #007bff;
+    border-left-color: #007bff;
+}
+
+.sidebar-menu>li>.treeview-menu {
+    background-color: #f8f9fa;
+}
+
+.sidebar a:hover {
+    color: #ffffff;
+}
+
+/* المحتوى */
+.content-wrapper,
+.content {
+    background-color: #f1f3f5;
+    color: #343a40;
+}
+
+.content-header {
+    background-color: transparent;
+}
+
+/* الصناديق واللوحات */
+.box {
+    background-color: #ffffff;
+    color: #343a40;
+    border-top: none;
+    border: 1px solid #dee2e6;
+}
+
+.box-header {
+    color: #343a40;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.box-footer {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border-top: 1px solid #dee2e6;
+}
+
+.nav-tabs-custom>.nav-tabs>li>a {
+    color: #495057;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a {
+    color: #ffffff;
+    background-color: #007bff;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs-custom>.tab-content {
+    background: #ffffff;
+    color: #343a40;
+}
+
+/* الأزرار */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #ffffff;
+}
+
+/* النماذج */
+.form-control {
+    background-color: #ffffff;
+    border-color: #ced4da;
+    color: #495057;
+}
+
+.form-control:focus {
+    background-color: #ffffff;
+    border-color: #80bdff;
+    color: #495057;
+}
+
+/* تحسين تنسيق الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+table thead th {
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table tbody tr:hover {
+    background-color: #d1ecf1;
+    color: #343a40;
+}
+
+table tbody td {
+    color: #343a40;
+}
+
+/* الرسوم البيانية */
+.graphs-grid {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.graphs-ticks {
+    color: #343a40;
+}
+
+.queries-permitted {
+    background-color: #28a745;
+}
+
+.queries-blocked {
+    background-color: #dc3545;
+}
+
+.progress {
+    background-color: #e9ecef;
+}
+
+/* الفوتر */
+.main-footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-top: 1px solid #dee2e6;
+}
+
+/* أنماط مخصصة */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* النصوص */
+.text-black {
+    color: #343a40 !important;
+}
+
+.text-green-light {
+    color: #28a745 !important;
+}
+
+.text-green {
+    color: #28a745 !important;
+}
+
+.text-orange {
+    color: #fd7e14 !important;
+}
+
+.text-red {
+    color: #dc3545 !important;
+}
+
+.text-vivid-blue {
+    color: #007bff !important;
+}
+
+/* تسجيلات الدخول */
+.login-box {
+    background: #ffffff;
+    color: #343a40;
+    border: 1px solid #dee2e6;
+}
+
+/* حالات الشبكة */
+.network-never {
+    background-color: #ffcccc;
+}
+
+.network-recent {
+    background-color: #d4edda;
+}
+
+.network-old {
+    background-color: #fff3cd;
+}
+
+.network-older {
+    background-color: #ffe5d6;
+}
+
+.network-gradient {
+    background-image: linear-gradient(to right, #d4edda 0%, #fff3cd 100%);
+}
+
+/* حقول البحث */
+.sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+    margin: 10px;
+}
+
+.sidebar-form input[type="text"],
+.sidebar-form .btn {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+.sidebar-form input[type="text"]:focus,
+.sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    background-color: #ffffff;
+    color: #495057;
+}
+
+.sidebar-form .btn {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.sidebar-form .btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #ffffff;
+}
+
+/* مربعات الاختيار */
+.icheckbox_minimal-blue {
+    margin-right: 10px;
+}
+
+.iradio_minimal-blue {
+    margin-right: 8px;
+}
+
+/* أزرار DataTables */
+.datatable-bt,
+.datatable-bt:active,
+.datatable-bt:active:focus,
+.datatable-bt:focus {
+    background: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+.datatable-bt:hover,
+.datatable-bt:active:hover {
+    background: #0056b3;
+    border-color: #0056b3;
+    color: #ffffff;
+}
+
+/* تأثيرات التمييز */
+td.highlight {
+    background-color: rgba(255, 193, 7, 0.2);
+}
+
+/* ألوان السجل */
+.log-red {
+    color: #dc3545;
+}
+
+.log-green {
+    color: #28a745;
+}
+
+.log-yellow {
+    color: #ffc107;
+}
+
+.log-blue {
+    color: #007bff;
+}
+
+.log-purple {
+    color: #6f42c1;
+}
+
+.log-cyan {
+    color: #17a2b8;
+}
+
+.log-gray {
+    color: #6c757d;
+}
+
+/* تصحيح نمط التعبئة التلقائية للمتصفحات */
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-text-fill-color: #495057 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.layout-boxed {
+    background: unset !important;
+}
+
+.layout-boxed {
+    background-color: #007bffb0 !important;
+}
+
+
+
+.sidebar-toggle-svg:hover {
+    color: #f6f6f6 !important;
+    background: #0055b0 !important;
+}
+.sidebar-toggle-svg {
+    color: #0055b0 !important;
+}
+
+table tbody tr:hover {
+    background-color: #007bff38 !important;
+    color: #343a40 !important;
+}
+
+.user-panel {
+    background-color: #007bff3d  !important;
+}
+
+.treeview-menu>li>a:hover  {
+    color: #343a40 !important;
+}
+
+custom>.nav-tabs>li.active {
+    border-top-color: #0055b0 !important;
+}
+
+/* .layout-boxed .wrapper {
+    max-width: unset !important;
+} */
+
+.layout-boxed .wrapper {
+    max-width: 1450px  !important;
+}
+
+.main-header .navbar {
+    background-color: unset !important;
+
+}
+
+.main-header .logo {
+    border-right:  unset !important;
+}
+
+table.dataTable thead .sorting:after {
+    opacity:  unset !important;
+}
+
+.small-box {
+    border-radius: unset !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #8ac2ff !important;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 50% !important;
+    }
+}
+
+.text-vivid-blue {
+    color: #ff3d3d !important;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
